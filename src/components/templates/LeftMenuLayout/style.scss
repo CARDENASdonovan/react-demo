@@ -1,0 +1,34 @@
+.left-side-menu-layout {
+  height: 100vh;
+}
+
+.left-side-menu-layout .inner-container{
+  height: 100%;
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-template-rows: auto;
+}
+
+/* Header {
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+
+Menu {
+  grid-row-start: 2;
+  grid-row-end: -1;
+}
+
+Page {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 2;
+  grid-row-end: -1;
+}
+
+Footer {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 3;
+  grid-row-end: -1;
+} */

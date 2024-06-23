@@ -1,0 +1,10 @@
+.default-layout {
+  height: 100vh;
+}
+
+.default-layout .inner-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 50px auto 50px;
+}

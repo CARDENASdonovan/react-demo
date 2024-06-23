@@ -1,0 +1,10 @@
+.right-side-menu-layout {
+  height: 100vh;
+}
+
+.right-side-menu-layout .inner-container{
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto 200px;
+  grid-template-rows: auto;
+}
