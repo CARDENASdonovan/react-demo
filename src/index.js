@@ -8,8 +8,8 @@ import "./index.css";
 import ErrorPage from "components/pages/LandingPage/ErrorPage";
 import LandingPage from "components/pages/LandingPage/LandingPage";
 import App from "components/organisms/ReactDefaultPage/App";
-import Dashboard from "components/pages/Dashboard/Dashboard";
-import Widget from "components/pages/Widget/Widget"
+import Left from "components/pages/Left/Left";
+import Right from "components/pages/Right/Right"
 
 const router = createBrowserRouter([
   {
@@ -24,21 +24,21 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "/dashboard",
-    element: <Dashboard />,
+    path: "/left",
+    element: <Left />,
     children: [
       {
-        path: "/dashboard",
+        path: "/left",
         element: <App />,
       },
     ],
   },
   {
-    path: "/widget",
-    element: <Widget />,
+    path: "/right",
+    element: <Right />,
     children: [
       {
-        path: "/widget",
+        path: "/right",
         element: <App />,
       },
     ],

@@ -3,8 +3,8 @@ import "./style.scss";
 import { Outlet } from "react-router-dom";
 
 const MENU_LABELS = [
-  {text: "Dashboard", link: "/dashboard"},
-  {text: "Widgets", link: "/widget"},
+  {text: "Left", link: "/left"},
+  {text: "Right", link: "/right"},
 ]
 
 export default function RightMenuLayout({ page }) {

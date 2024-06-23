@@ -4,8 +4,8 @@ import { Outlet } from "react-router-dom";
 import "./style.scss";
 
 const HEADER_LABELS = [
-  {text: "Dashboard", link: "/dashboard"},
-  {text: "Widgets", link: "/widget"},
+  {text: "Left side menu", link: "/left"},
+  {text: "Right side menu", link: "/right"},
 ]
 
 const FOOTER_LABELS = [
